@@ -1,0 +1,47 @@
+$home-brand-color: #0072b1;
+$away-brand-color: #3aa3c9;
+$devider-color: #b3b3b3;
+
+//Circle
+.percentage1ClassName {
+    stroke: $home-brand-color;
+}
+.percentage2ClassName {
+    stroke: $away-brand-color;
+}
+.circleClassName {
+    stroke: $devider-color;
+}
+
+//Common
+
+.graphics-primary-fill {
+    fill: $home-brand-color;
+}
+
+.graphics-primary-stroke {
+    stroke: $home-brand-color;
+}
+
+.graphics-primary-color {
+    color: $home-brand-color;
+}
+
+.line-color {
+    stroke: $devider-color;
+}
+
+.text-uppercase {
+    text-transform: uppercase;
+}
+
+//Visual test
+
+.border-dashed {
+    border: 1px dashed blue;
+}
+
+//Bar chart
+.classNameLine {
+    stroke: $home-brand-color;
+}
